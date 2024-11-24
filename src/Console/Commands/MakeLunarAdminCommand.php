@@ -77,7 +77,6 @@ class MakeLunarAdminCommand extends Command
     {
         $this->options = $this->options();
 
-        $user = $this->createUser();
-        $this->sendSuccessMessage($user);
+        $this->createUser();
     }
 }
