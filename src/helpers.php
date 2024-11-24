@@ -10,7 +10,7 @@ use Lunar\Models\Attribute;
 use function Filament\Support\generate_search_term_expression;
 
 if (! function_exists('price')) {
-    function price($value, $currency, $unitQty = 1)
+    function price($value, $currency, $unitQty = 1): Price
     {
         return new Price($value, $currency, $unitQty);
     }
