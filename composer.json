@@ -14,7 +14,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "lunarphp/core": "self.version",
+        "lunarphp/core": "*",
         "filament/filament": "^3.2.25",
         "filament/spatie-laravel-media-library-plugin": "^3.2",
         "spatie/laravel-permission": "^6.4",
